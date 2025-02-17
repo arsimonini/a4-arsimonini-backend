@@ -148,7 +148,7 @@ app.get('/auth/github/callback',
         // Successful authentication, redirect home.
         console.log("Made it Here")
         //res.status(200).end()
-        res.redirect('http://localhost:5173/#/GHConfirmation');
+        res.redirect('https://a4-arsimonini-frontend.onrender.com/#/GHConfirmation');
     });
 
 app.post('/submit', (req, res) => {
